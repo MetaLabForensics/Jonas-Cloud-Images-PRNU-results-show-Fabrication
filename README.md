@@ -130,7 +130,7 @@ https://github.com/MetaLabForensics/Jonas-Cloud-Images-PRNU-results-show-Fabrica
 
 ## PRNU Analysis When Camera is Unavailable
 
-https://github.com/MetaLabForensics/Jonas-Cloud-Images-PRNU-results-show-Fabrication/blob/main/PRNU%20for%20No%20Camera%20case
+https://github.com/MetaLabForensics/Jonas-Cloud-Images-PRNU-results-show-Fabrication/blob/main/PRNU%20for%20No%20Camera%20case.py
 
 In some cases the original camera body cannot be accessed (lost, sold, destroyed, or otherwise unavailable). Forensic standards provide guidance for handling this scenario:
 
