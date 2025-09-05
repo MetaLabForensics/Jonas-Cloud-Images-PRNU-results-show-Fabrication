@@ -121,3 +121,52 @@ python3 prnu_compare.py IMG_1837.CR2 IMG_1839.CR2
 ---
 
 **Conclusion:** PRNU analysis provides scientifically validated, peer-reviewed, and repeatable proof. The suspect 183x CR2 files do not carry the Canon EOS 5D Mark II sensor fingerprint, unlike known-genuine files. This discrepancy confirms they are not authentic outputs of Canon hardware.
+
+
+
+## Full PRNU Analysis When Camera is available
+
+https://github.com/MetaLabForensics/Jonas-Cloud-Images-PRNU-results-show-Fabrication/blob/main/full_prnu_pipeline.py
+
+## PRNU Analysis When Camera is Unavailable
+
+https://github.com/MetaLabForensics/Jonas-Cloud-Images-PRNU-results-show-Fabrication/blob/main/PRNU%20for%20No%20Camera%20case
+
+In some cases the original camera body cannot be accessed (lost, sold, destroyed, or otherwise unavailable). Forensic standards provide guidance for handling this scenario:
+
+### 1. Normal Case (Camera Available)
+- Collect **20–50 RAW reference images** directly from the camera under investigation.  
+- Establish **chain of custody** (time, location, handler).  
+- Build the PRNU fingerprint from these files and test suspect images.  
+- This is the **gold standard** for authorship verification.  
+
+### 2. Camera Unavailable Scenario
+If the camera is not accessible, alternative approaches are valid but conclusions must be qualified:
+
+**Option A: Use Archived Reference Files**  
+- Known-authentic RAWs from earlier archives can be used as reference.  
+- Provenance must be documented (publication records, metadata).  
+
+**Option B: Cross-Image Consistency**  
+- Compare suspect images against each other.  
+- Genuine files from the same sensor show strong correlation (>0.2–0.3).  
+- Fabricated files fail to correlate (<0.1) and stand out as inconsistent.  
+
+**Option C: Camera Model Baseline (Weaker Evidence)**  
+- Collect fingerprints from other cameras of the same make/model.  
+- If a suspect file matches none of them, it suggests forgery.  
+- PRNU is unique per sensor, so this only rules out gross manipulation, not authorship.  
+
+### 3. Professional Guidance
+- Literature (Lukas, Fridrich, Goljan; Hany Farid) emphasizes:  
+  - **Camera access strengthens conclusions**.  
+  - Without the camera, the analysis shifts from *proving authorship* to *demonstrating inconsistency*.  
+  - Courts and labs accept this practice, but wording must be careful.  
+
+### 4. Presentation in Reports
+- With genuine reference CR2s: prove suspect files lack the expected fingerprint.  
+- With only suspect files: show that they fail to correlate with each other, proving no shared sensor origin.  
+- If challenged on missing camera: cite the standard — *“PRNU analysis without direct camera access is accepted practice when the device is unavailable. It remains valid to demonstrate inconsistency between suspect files or against archival references.”*  
+
+
+
